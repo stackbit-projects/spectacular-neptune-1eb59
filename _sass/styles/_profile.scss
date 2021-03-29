@@ -1,0 +1,14 @@
+$avatar-dim: 96px;
+
+.profile { 
+    margin-top: 30px;
+    text-align: center;
+    p {
+        margin: 6px;
+        line-height: 1.5em;
+    }
+    .avatar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,82 @@
+.collection {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 1em;
+    .group {
+        margin: 4px;
+        display: inline-block;
+        border: 2px solid $p_darkest;
+        border-radius: 5px;
+        position: relative;
+        text-align: initial;
+        min-width: 300px;
+        max-width: 375px;
+        width: 100%;
+        background-color: $dark;
+        height: fit-content;
+        .title {
+            background-color: $dark;
+            padding: 6px;
+            text-align: center;
+            font-weight: 900;
+            line-height: 10px;
+        }
+        .item {
+            padding: 18px 15px 18px 15px;
+            width: 100%;
+            display: flex;
+            cursor: pointer;
+            transition: 0.5s ease all;
+            -webkit-transition: 0.5s ease all;
+            position: relative;
+            box-sizing: border-box;
+            color: $p_text;
+            line-height: 1.2em;
+            border-bottom: 1px solid $p_darkest;
+            border-top: 1px solid $p_darkest;
+            &:last-child {
+                border-bottom: none;
+            }
+            &:first-child {
+                border-top: 2px solid $p_darkest;
+            }
+            &:hover {
+                background-image: linear-gradient(to right, $p_darkest,  $dark);
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 4px;
+                    height: 100%;
+                    background-color: $primary;
+                    position: absolute;
+                    left: -2px;
+                    top: 0px;
+                    box-shadow: $primary 4px 0px 22px;
+                }
+            }
+            .icon {
+                min-width: 50px;
+                img, i {
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+            .content {
+                h4 {
+                    margin: 0px;
+                    font-weight: 500;
+                    min-height: 1.5em;
+                    font-size: 1em;
+                    line-height: 1em;
+                }
+                .description {
+                    padding-left: 1px;
+                    font-size: 0.75em;
+                    line-height: 1.1em;
+                }
+            }
+        }
+    }
+}

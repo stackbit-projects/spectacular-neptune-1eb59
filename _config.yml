@@ -1,0 +1,27 @@
+title: minimal-categorized
+tagline: A site showing the usage of Jekyll custom theme
+email: email@example.com
+description: >-
+  This website was created as a demonstration for Jekyll custom theme named
+  minimal-categorized. Its main feature is to aggregate posts into categories,
+  witch are easily distinguishable
+baseurl: ''
+url: ''
+author: itsmeaga1n
+twitter:
+  username: itsmeaga1n
+  card: summary
+plugins:
+  - jekyll-seo-tag
+markdown: kramdown
+remote_theme: ItsMeaga1n/minimal-categorized
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+  - node_modules
