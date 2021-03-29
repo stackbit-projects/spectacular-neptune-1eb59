@@ -47,4 +47,4 @@ menu_contacts:
     target: _blank
   - faicon: fas fa-envelope
     url: null
-    target: 'mail:ping@'
+    target: 'mail:ping@shaunakpandya.me'
