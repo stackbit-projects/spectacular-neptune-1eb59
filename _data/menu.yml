@@ -48,3 +48,5 @@ menu_contacts:
   - faicon: fas fa-envelope
     url: null
     target: 'mail:ping@shaunakpandya.me'
+  - faicon: lorem-ipsum
+    target: lorem-ipsum
