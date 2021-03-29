@@ -4,7 +4,5 @@ lightTheme: false
 show_menu_logo_on_home_page: true
 cookies:
   enabled: true
-  message: >-
-    This site might be using cookies! Customize your message or disable cookies
-    in metaData.yml!
+  message: 'To provide you a better experience, we store cookies'
   agreeButtonText: Agree
