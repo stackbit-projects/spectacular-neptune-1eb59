@@ -1,8 +1,10 @@
-author: Site Author
+author: Shaunak Pandya
 avatar_url: assets/img/avatar.png
-lightTheme: False
-show_menu_logo_on_home_page: True
+lightTheme: false
+show_menu_logo_on_home_page: true
 cookies:
-  enabled: True
-  message: This site might be using cookies! Customize your message or disable cookies in metaData.yml!
+  enabled: true
+  message: >-
+    This site might be using cookies! Customize your message or disable cookies
+    in metaData.yml!
   agreeButtonText: Agree
